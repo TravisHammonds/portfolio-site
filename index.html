@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" media="all" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
+        href="https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Mono%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="fixed-top navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <img class="headshot" src="assets/headshot-circular.jpg" alt="travis-hammonds">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link nav-option" aria-current="page" href="#">Home</a>
+                    <a class="nav-link nav-option" href="#">Contact</a>
+                    <a class="nav-link nav-option" href="#">Projects</a>
+                    <a class="nav-link nav-option" href="" #>About</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="title container">
+        <h1 class="name m-2">Travis Hammonds</h1>
+        <h5 class="job-title m-2">Software Engineer, Full Stack Developer </h5>
+        <img class="plane1" src="./assets/plane-imgs/plane1.png" alt="plane1" />
+    </section>
+
+    <section class="contact">
+        <div class="card contact-card text-center">
+            <div class="card-header">
+                <ul class="nav nav-pills card-header-pills">
+                    <li class="nav-item">
+                        <a id="email-contact" class="nav-link contact-item active">Email</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="linkedin-contact" class="nav-link contact-item">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="phone-contact" class="nav-link contact-item" aria-disabled="true">Phone</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body contact-body">
+                <h5 class="card-title">Contact Me</h5>
+                <a id="contact-link" href="mailto:travishammonds2@gmail.com" class="btn">travishammonds2@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills d-flex flex-column align-items-center">
+        <h2 class="expertise">My Expertise</h2>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card skills-card shadow-sm">
+                        <div class="card-body skills-card-body">
+                            <h3 class="skill">Software Development</h3>
+                            <p class="fake-tag">&lt;h3&gt;</p>
+                            <p class="vl1 card-text">Experience with functional and OOP. Advanced comprehension in
+                                Javascript with background experience in Java and Python.</p>
+                            <p class="fake-tag">&lt;/h3&gt;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card skills-card shadow-sm">
+                        <div class="card-body skills-card-body">
+                            <h3 class="skill">Front End</h3>
+                            <p class="fake-tag">&lt;h3&gt;</p>
+                            <p class="vl1 card-text">Demonstrated efficiency in React, jQuery, CSS, HTML and Bootstrap
+                                frameworks.</p>
+                            <p class="fake-tag">&lt;/h3&gt;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card skills-card shadow-sm">
+                        <div class="card-body skills-card-body">
+                            <h3 class="skill">Back End</h3>
+                            <p class="fake-tag">&lt;h3&gt;</p>
+                            <p class="vl1 card-text">Experienced in Node.js, Express, PostgreSQL, Knex and multiple
+                                testing libraries.</p>
+                            <p class="fake-tag">&lt;/h3&gt;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="index.js" async defer></script>
+</body>
+
+</html>

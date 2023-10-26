@@ -1,0 +1,167 @@
+/* 
+-----------FONTS----------
+
+
+-----------COLOR SCHEME ---------
+
+primary: #354c7e
+secondary: #fbf3e3
+accent: #b95f5c,
+alternate: #f1c540,
+dark: #aea79f 
+
+*/
+
+body {
+  background-color: #fbf3e3;
+  padding-top: 70px;
+}
+
+.active {
+    background-color: #354c7e !important;
+    color:#fbf3e3 imo !important;
+}
+
+.btn {
+    border: 2px solid #354c7e;
+    color:#354c7e;
+}
+
+.skills-card {
+  background-color: #fbf3e3;
+  border: none;
+}
+
+.skills-card-body {
+  background-color: #354c7e;
+  color: #fbf3e3;
+  border-radius: 10px;
+}
+
+.contact {
+  padding: 10px;
+}
+
+.contact-card {
+    border: 3px solid #354c7e;
+}
+
+.card-header {
+    background-color: #fbf3e3;
+    border-bottom: 1px solid #354c7e;
+}
+
+.card-title {
+    color: #b95f5c;
+}
+
+.contact-body {
+    background-color: #fbf3e3;
+}
+
+.contact-item {
+  color: #354c7e;
+}
+
+.expertise {
+  color: #354c7e;
+  margin-bottom: 15px;
+}
+
+.fake-tag {
+  color: #b95f5c;
+  font-size: 10px;
+  margin-bottom: 0;
+}
+
+.name {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  font-size: 8vw;
+  color: #354c7e;
+}
+
+.job-title {
+  font-family: "Roboto Mono", Sans-serif;
+  color: #b95f5c;
+  letter-spacing: 10px;
+  font-size: 1.4vw;
+}
+
+.headshot {
+  width: 10%;
+  height: auto;
+}
+
+.navbar {
+  background-color: #b95f5c;
+}
+
+.navbar-toggler {
+  border-color: #fbf3e3;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28251, 243, 227, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-brand {
+  color: #354c7e;
+}
+
+.nav-link {
+  font-family: "Roboto Mono", Sans-serif;
+}
+
+.nav-option {
+    color:#fbf3e3;
+}
+
+.skill {
+  color: #fbf3e3;
+}
+
+.title {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills {
+  padding-top: 20px;
+}
+
+.vl1 {
+  margin-bottom: 0;
+  border-left: 1px solid #b95f5c;
+  padding: 10px;
+}
+
+/* ----- MOBILE VERSION ----- */
+@media only screen and (max-width: 767px) {
+  .title {
+    margin-top: 15%;
+  }
+  .job-title {
+    font-size: 2.3vw;
+    letter-spacing: 1px;
+  }
+  .plane1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* ----- DESKTOP VERSION -----*/
+@media only screen and (min-width: 992px) {
+  .plane1 {
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+  }
+}
