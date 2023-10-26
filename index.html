@@ -46,13 +46,13 @@
         </div>
     </nav>
 
-    <section class="title container">
+    <section id="header" class="title container">
         <h1 class="name m-2">Travis Hammonds</h1>
         <h5 class="job-title m-2">Software Engineer, Full Stack Developer </h5>
         <img class="plane1" src="./assets/plane-imgs/plane1.png" alt="plane1" />
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
         <div class="card contact-card text-center">
             <div class="card-header">
                 <ul class="nav nav-pills card-header-pills">
@@ -74,7 +74,7 @@
         </div>
     </section>
 
-    <section class="skills d-flex flex-column align-items-center">
+    <section id="expertise" class="skills d-flex flex-column align-items-center">
         <h2 class="expertise">My Expertise</h2>
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -114,7 +114,66 @@
             </div>
         </div>
     </section>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <section id="projects">
+        <div class="projects-container container mt-5">
+            <div class="d-flex justify-content-between align-items-center m-2">
+                <h5 class="projects-header">Projects</h5>
+                <btn class="btn">Github</btn>
+            </div>
+            <hr>
+            <div class="container d-flex flex-column align-items-center p-2">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-4 card-image d-flex align-items-center"> 
+                            <img src="./assets/project-imgs/movie_img-removebg-preview.png" class="img-fluid rounded-start" alt="movies">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body project-card-body">
+                                <h5 class="card-title">WeLoveMovies</h5>
+                                <p class="card-text">Full-Stack application that allows users to find and learn about movies within their local theaters.</p>
+                                <p class="card-text">Technologies: Node.js, Express.js, React, PostgreSQL, Knex, jest and more!</p>
+                                <button class="btn"><a href="#" class="nav-link">See More!</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-4 card-image d-flex align-items-center"> 
+                            <img src="./assets/project-imgs/flashcard_img-removebg-preview.png" class="img-fluid rounded-start" alt="flashcard">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body project-card-body">
+                                <h5 class="card-title">Flashcard-O-Matic</h5>
+                                <p class="card-text">Flashcard-O-Matic allows users to create, edit and study from decks of flashcards to help them ace their next exam. Allows for full CRUD utilization on the users end</p>
+                                <p class="card-text">Technologies: React, JSX, CSS, Bootstrap, HTML, Mocha/Chai.js</p>
+                                <button class="btn"><a href="#" class="nav-link">See More!</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-4 card-image d-flex align-items-center"> 
+                            <img src="./assets/project-imgs/burger1-removebg-preview.png" class="img-fluid rounded-start" alt="grub">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body project-card-body">
+                                <h5 class="card-title">Grubdash</h5>
+                                <p class="card-text">A mock implementation of the popular app Doordash. Browse through tons of menu options and order food to you now.</p>
+                                <p class="card-text">Technologies: Node.js, Express.js, React, Javascript, jest and more!</p>
+                                <button class="btn"><a href="#" class="nav-link">See More!</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="index.js" async defer></script>
 </body>
 

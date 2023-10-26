@@ -17,9 +17,14 @@ body {
   padding-top: 70px;
 }
 
+hr {
+    border: solid 1px #b95f5c;
+    opacity: 1;
+}
+
 .active {
     background-color: #354c7e !important;
-    color:#fbf3e3 imo !important;
+    color:#fbf3e3 !important;
 }
 
 .btn {
@@ -55,8 +60,24 @@ body {
     color: #b95f5c;
 }
 
+.card-body{
+    background-color: #fbf3e3;
+    color:#354c7e;
+}
+
+.card-image {
+    background-color: #fbf3e3;
+    border-left: 2px solid #354c7e;
+    border-top: 2px solid #354c7e;
+    border-bottom: 2px solid #354c7e;
+}
+
 .contact-body {
     background-color: #fbf3e3;
+}
+
+.project-card-body {
+    border: 2px solid #354c7e;
 }
 
 .contact-item {
@@ -117,6 +138,11 @@ body {
     color:#fbf3e3;
 }
 
+.projects-header {
+    color:#354c7e;
+
+}
+
 .skill {
   color: #fbf3e3;
 }
@@ -131,6 +157,11 @@ body {
 
 .skills {
   padding-top: 20px;
+}
+
+.skills-card-body {
+    background-color: #354c7e;
+    color:#fbf3e3;
 }
 
 .vl1 {
@@ -152,6 +183,11 @@ body {
     margin-top: 10%;
     margin-bottom: 10%;
     width: 90%;
+    height: auto;
+  }
+
+  .card-img img {
+    width: 10%;
     height: auto;
   }
 }
