@@ -2,7 +2,7 @@
 -----------FONTS----------
 
 
------------COLOR SCHEME ---------
+----------- COLOR SCHEME ---------
 
 primary: #354c7e
 secondary: #fbf3e3
@@ -22,14 +22,32 @@ hr {
     opacity: 1;
 }
 
+#projects {
+    height: 80vh;
+}
+
 .active {
     background-color: #354c7e !important;
     color:#fbf3e3 !important;
 }
 
+.background-main {
+    width: 100%;
+    height: auto;
+}
+
 .btn {
     border: 2px solid #354c7e;
     color:#354c7e;
+}
+
+.carousel-image {
+    width: 5%;
+    height: auto;
+}
+
+.carousel-text {
+    color:black;
 }
 
 .skills-card {

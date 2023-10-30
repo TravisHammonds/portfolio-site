@@ -122,68 +122,64 @@
                 <a class="btn" href="https://github.com/TravisHammonds">Github</a>
             </div>
             <hr>
-            <div class="container d-flex flex-column align-items-center p-2">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-4 card-image d-flex align-items-center">
-                            <img src="./assets/project-imgs/movie_img-removebg-preview.png"
-                                class="img-fluid rounded-start" alt="movies">
+            <!-- Carousel  -->
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/project-imgs/we-love-movies/home-screen.png"
+                            class="carousel-image d-block w-100" alt="home">
+                        <div class="carousel-caption d-md-block">
+                            <h5>We Love Movies</h5>
+                            <p>An app for users to find movies in their local theaters.</p>
                         </div>
-                        <div class="col-8">
-                            <div class="card-body project-card-body">
-                                <h5 class="card-title">WeLoveMovies</h5>
-                                <p class="card-text">Full-Stack application that allows users to find and learn about
-                                    movies within their local theaters.</p>
-                                <p class="card-text">Technologies: Node.js, Express.js, React, PostgreSQL, Knex, jest
-                                    and more!</p>
-                                <button class="btn"><a href="https://github.com/TravisHammonds/we-love-movies.git"
-                                        class="nav-link">See More!</a></button>
-                            </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/project-imgs/we-love-movies/movie-info.png" class="d-block w-100" alt="movie">
+                        <div class="carousel-caption d-md-block">
+                            <h5></h5>
+                            <p>Technologies: Node.js, Express, React, Knex, PostgreSQL and MORE.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/project-imgs/we-love-movies/theaters.png" class="d-block w-100" alt="theaters">
+                        <div class="carousel-caption d-md-block">
+                            <h5></h5>
+                            <p>Full-Stack PERN</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/project-imgs/we-love-movies/movie_img-removebg-preview.png"
+                            class="d-block w-100" alt="clipart">
+                        <div class="carousel-caption d-md-block">
+                            <h5>SEE MORE</h5>
+                            <a href="https://welovemovies2-x6t0.onrender.com/movies" class=>Go To Website</a>
                         </div>
                     </div>
                 </div>
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-4 card-image d-flex align-items-center">
-                            <img src="./assets/project-imgs/flashcard_img-removebg-preview.png"
-                                class="img-fluid rounded-start" alt="flashcard">
-                        </div>
-                        <div class="col-8">
-                            <div class="card-body project-card-body">
-                                <h5 class="card-title">Flashcard-O-Matic</h5>
-                                <p class="card-text">Flashcard-O-Matic allows users to create, edit and study from decks
-                                    of flashcards to help them ace their next exam. Allows for full CRUD utilization on
-                                    the users end</p>
-                                <p class="card-text">Technologies: React, JSX, CSS, Bootstrap, HTML, Mocha/Chai.js</p>
-                                <button class="btn"><a href="https://github.com/TravisHammonds/flashcard-react-app.git"
-                                        class="nav-link">See More!</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-4 card-image d-flex align-items-center">
-                            <img src="./assets/project-imgs/burger1-removebg-preview.png"
-                                class="img-fluid rounded-start" alt="grub">
-                        </div>
-                        <div class="col-8">
-                            <div class="card-body project-card-body">
-                                <h5 class="card-title">Grubdash</h5>
-                                <p class="card-text">A mock implementation of the popular app Doordash. Browse through
-                                    tons of menu options and order food to you now.</p>
-                                <p class="card-text">Technologies: Node.js, Express.js, React, Javascript, jest and
-                                    more!</p>
-                                <button class="btn"><a href="https://github.com/TravisHammonds/grubdash.git"
-                                        class="nav-link">See More!</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="btn" href="https://github.com/TravisHammonds?tab=repositories">More Projects!</a>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
+    <img src="assets/header-bg.png" class="background-main" alt="background-main" />
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
