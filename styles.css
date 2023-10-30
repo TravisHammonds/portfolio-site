@@ -46,8 +46,12 @@ hr {
     height: auto;
 }
 
-.carousel-text {
-    color:black;
+.carousel-caption {
+    color:#354c7e;
+}
+
+.carousel-control-prev-icon {
+  color:#354c7e;
 }
 
 .skills-card {
@@ -159,6 +163,10 @@ hr {
 .projects-header {
     color:#354c7e;
 
+}
+
+.see-more {
+  color:#354c7e;
 }
 
 .skill {
