@@ -1,17 +1,13 @@
 /* 
------------FONTS----------
-
-
 ----------- COLOR SCHEME ---------
-
 primary: #354c7e
 secondary: #fbf3e3
 accent: #b95f5c,
 alternate: #f1c540,
 dark: #aea79f 
-
 */
 
+/* Global Styles */
 body {
   background-color: #fbf3e3;
   padding-top: 70px;
@@ -22,6 +18,27 @@ hr {
   opacity: 1;
 }
 
+/* Typography and Fonts */
+.name {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 600;
+  font-size: 8vw;
+  color: #354c7e;
+}
+
+.job-title, .contact-link, .nav-link, .card-body {
+  font-family: "Roboto Mono", Sans-serif;
+}
+
+.card-title, .carousel-caption h5, .expertise, .skill, .projects-header {
+  font-family: "Poppins", Sans-serif;
+}
+
+.carousel-caption p, a {
+  font-family: "Roboto Mono", Sans-serif !important;
+}
+
+/* Components */
 #projects {
   height: 80vh;
 }
@@ -36,13 +53,9 @@ hr {
   height: auto;
 }
 
-.btn {
+.btn, .carousel {
   border: 2px solid #354c7e;
   color: #354c7e;
-}
-
-.carousel {
-  border: 2px solid #354c7e;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -58,22 +71,14 @@ hr {
   color: #354c7e;
 }
 
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%54c7e'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%54c7e'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-}
-
 .skills-card {
   background-color: #fbf3e3;
   border: none;
 }
 
-.skills-card-body {
-  background-color: #354c7e;
-  color: #fbf3e3;
+.skills-card-body, .project-card-body {
+  background-color: #354c7e !important;
+  color: #fbf3e3 !important;
   border-radius: 10px;
 }
 
@@ -81,7 +86,7 @@ hr {
   padding: 10px;
 }
 
-.contact-card {
+.contact-card, .project-card-body {
   border: 3px solid #354c7e;
 }
 
@@ -97,90 +102,29 @@ hr {
 .card-body {
   background-color: #fbf3e3;
   color: #354c7e;
+  font-family: "Roboto Mono", Sans-serif;
 }
 
-.card-image {
-  background-color: #fbf3e3;
-  border-left: 2px solid #354c7e;
-  border-top: 2px solid #354c7e;
-  border-bottom: 2px solid #354c7e;
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%54c7e'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%54c7e'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
 .contact-body {
   background-color: #fbf3e3;
 }
 
-.project-card-body {
-  border: 2px solid #354c7e;
-}
-
-.contact-item {
+.contact-item, .expertise, .projects-header, .see-more {
   color: #354c7e;
-}
-
-.expertise {
-  color: #354c7e;
-  margin-bottom: 15px;
 }
 
 .fake-tag {
   color: #b95f5c;
   font-size: 10px;
   margin-bottom: 0;
-}
-
-.card-title {
-  font-family: "Poppins", Sans-serif;
-}
-
-.carousel-caption h5 {
-  font-family: "Poppins", Sans-serif;
-}
-
-.carousel-caption p {
-  font-family: "Roboto Mono", Sans-serif;
-}
-
-a {
-  font-family: "Roboto Mono", Sans-serif !important;
-}
-
-.contact-link {
-  font-family: "Roboto Mono", Sans-serif;
-}
-
-.expertise {
-  font-family: "Poppins", Sans-serif;
-  font-weight: 500;
-  font-size: 8vw;
-}
-
-.skill {
-  font-family: "Poppins", Sans-serif;
-}
-
-.card-body {
-  font-family: "Roboto Mono", Sans-serif;
-}
-
-.projects-header {
-  font-family: "Poppins", Sans-serif;
-  font-weight: 500;
-  font-size: 7vw;
-}
-
-.name {
-  font-family: "Poppins", Sans-serif;
-  font-weight: 600;
-  font-size: 8vw;
-  color: #354c7e;
-}
-
-.job-title {
-  font-family: "Roboto Mono", Sans-serif;
-  color: #b95f5c;
-  letter-spacing: 10px;
-  font-size: 1.4vw;
 }
 
 .headshot {
@@ -196,32 +140,16 @@ a {
   border-color: #fbf3e3;
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28251, 243, 227, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
 .navbar-brand {
   color: #354c7e;
 }
 
-.nav-link {
-  font-family: "Roboto Mono", Sans-serif;
-}
-
-.nav-option {
+.nav-option, .skill {
   color: #fbf3e3;
 }
 
-.projects-header {
-  color: #354c7e;
-}
-
-.see-more {
-  color: #354c7e;
-}
-
-.skill {
-  color: #fbf3e3;
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28251, 243, 227, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .title {
@@ -236,26 +164,23 @@ a {
   padding-top: 20px;
 }
 
-.skills-card-body {
-  background-color: #354c7e;
-  color: #fbf3e3;
-}
-
 .vl1 {
   margin-bottom: 0;
   border-left: 1px solid #b95f5c;
   padding: 10px;
 }
 
-/* ----- MOBILE VERSION ----- */
+/* Media Queries */
 @media only screen and (max-width: 767px) {
   .title {
     margin-top: 15%;
   }
+  
   .job-title {
     font-size: 2.3vw;
     letter-spacing: 1px;
   }
+  
   .plane1 {
     margin-top: 10%;
     margin-bottom: 10%;
@@ -269,7 +194,6 @@ a {
   }
 }
 
-/* ----- DESKTOP VERSION -----*/
 @media only screen and (min-width: 992px) {
   .plane1 {
     display: flex;
