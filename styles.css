@@ -18,27 +18,27 @@ body {
 }
 
 hr {
-    border: solid 1px #b95f5c;
-    opacity: 1;
+  border: solid 1px #b95f5c;
+  opacity: 1;
 }
 
 #projects {
-    height: 80vh;
+  height: 80vh;
 }
 
 .active {
-    background-color: #354c7e !important;
-    color:#fbf3e3 !important;
+  background-color: #354c7e !important;
+  color: #fbf3e3 !important;
 }
 
 .background-main {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .btn {
-    border: 2px solid #354c7e;
-    color:#354c7e;
+  border: 2px solid #354c7e;
+  color: #354c7e;
 }
 
 .carousel {
@@ -50,12 +50,12 @@ hr {
 }
 
 .carousel-image {
-    width: 5%;
-    height: auto;
+  width: 5%;
+  height: auto;
 }
 
 .carousel-caption {
-    color:#354c7e;
+  color: #354c7e;
 }
 
 .carousel-control-prev-icon {
@@ -82,36 +82,36 @@ hr {
 }
 
 .contact-card {
-    border: 3px solid #354c7e;
+  border: 3px solid #354c7e;
 }
 
 .card-header {
-    background-color: #fbf3e3;
-    border-bottom: 1px solid #354c7e;
+  background-color: #fbf3e3;
+  border-bottom: 1px solid #354c7e;
 }
 
 .card-title {
-    color: #b95f5c;
+  color: #b95f5c;
 }
 
-.card-body{
-    background-color: #fbf3e3;
-    color:#354c7e;
+.card-body {
+  background-color: #fbf3e3;
+  color: #354c7e;
 }
 
 .card-image {
-    background-color: #fbf3e3;
-    border-left: 2px solid #354c7e;
-    border-top: 2px solid #354c7e;
-    border-bottom: 2px solid #354c7e;
+  background-color: #fbf3e3;
+  border-left: 2px solid #354c7e;
+  border-top: 2px solid #354c7e;
+  border-bottom: 2px solid #354c7e;
 }
 
 .contact-body {
-    background-color: #fbf3e3;
+  background-color: #fbf3e3;
 }
 
 .project-card-body {
-    border: 2px solid #354c7e;
+  border: 2px solid #354c7e;
 }
 
 .contact-item {
@@ -127,6 +127,46 @@ hr {
   color: #b95f5c;
   font-size: 10px;
   margin-bottom: 0;
+}
+
+.card-title {
+  font-family: "Poppins", Sans-serif;
+}
+
+.carousel-caption h5 {
+  font-family: "Poppins", Sans-serif;
+}
+
+.carousel-caption p {
+  font-family: "Roboto Mono", Sans-serif;
+}
+
+a {
+  font-family: "Roboto Mono", Sans-serif !important;
+}
+
+.contact-link {
+  font-family: "Roboto Mono", Sans-serif;
+}
+
+.expertise {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  font-size: 8vw;
+}
+
+.skill {
+  font-family: "Poppins", Sans-serif;
+}
+
+.card-body {
+  font-family: "Roboto Mono", Sans-serif;
+}
+
+.projects-header {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 500;
+  font-size: 7vw;
 }
 
 .name {
@@ -169,16 +209,15 @@ hr {
 }
 
 .nav-option {
-    color:#fbf3e3;
+  color: #fbf3e3;
 }
 
 .projects-header {
-    color:#354c7e;
-
+  color: #354c7e;
 }
 
 .see-more {
-  color:#354c7e;
+  color: #354c7e;
 }
 
 .skill {
@@ -198,8 +237,8 @@ hr {
 }
 
 .skills-card-body {
-    background-color: #354c7e;
-    color:#fbf3e3;
+  background-color: #354c7e;
+  color: #fbf3e3;
 }
 
 .vl1 {
