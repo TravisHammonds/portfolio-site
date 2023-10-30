@@ -41,6 +41,10 @@ hr {
     color:#354c7e;
 }
 
+.carousel {
+  border: 2px solid #354c7e;
+}
+
 .carousel-image {
     width: 5%;
     height: auto;
