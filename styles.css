@@ -26,7 +26,7 @@ hr {
   color: #354c7e;
 }
 
-.job-title, .contact-link, .nav-link, .card-body {
+.contact-link, .nav-link, .card-body {
   font-family: "Roboto Mono", Sans-serif;
 }
 
@@ -38,9 +38,20 @@ hr {
   font-family: "Roboto Mono", Sans-serif !important;
 }
 
+.job-title {
+  color:#b95f5c;
+  font-family: "Roboto Mono", Sans-serif;
+  letter-spacing: 10px;
+  font-size: 1.4vw;
+}
+
 /* Components */
+#header {
+  text-align: center;
+}
+
 #projects {
-  height: 80vh;
+  margin-top: 5%;
 }
 
 .active {
@@ -60,11 +71,6 @@ hr {
 
 .carousel-indicators [data-bs-target] {
   background-color: grey;
-}
-
-.carousel-image {
-  width: 5%;
-  height: auto;
 }
 
 .carousel-caption {
@@ -157,7 +163,6 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .skills {
@@ -171,7 +176,7 @@ hr {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .title {
     margin-top: 15%;
   }
@@ -188,6 +193,10 @@ hr {
     height: auto;
   }
 
+  .plane2, .plane3{
+    display: none; 
+  }
+
   .card-img img {
     width: 10%;
     height: auto;
@@ -195,10 +204,65 @@ hr {
 }
 
 @media only screen and (min-width: 992px) {
+  #header {
+    height: 90vh;
+  }
+
+  #contact {
+    height: 50vh;
+    font-size: 150%;
+  }
+
+  .contact-body {
+    height: 30vh;
+  }
+
+  .contact-title {
+    margin-top: 1%;
+    font-size: 200%;
+  }
+  
+  .contact-link {
+    margin-top: 3%;
+    font-size: 200%;
+  }
+
   .plane1 {
+    width: 30%;
+    height: auto;
     display: flex;
     position: absolute;
     top: 70px;
     left: 20px;
+    z-index: -1;
   }
+
+  .plane2 {
+    width: 35%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 105px;
+    right: 5px;
+    z-index: -1;
+  }
+
+  .plane3 {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    z-index: -2;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+  }
+
+  .headshot {
+    width: 3%;
+    height: auto;
+  }
+  
+
 }
