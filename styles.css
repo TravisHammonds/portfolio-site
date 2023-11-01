@@ -37,6 +37,7 @@ hr {
 .skill,
 .projects-header {
   font-family: "Poppins", Sans-serif;
+  margin-bottom: none;
 }
 
 .carousel-caption p,
@@ -47,20 +48,17 @@ a {
 .colab-header, .expertise {
   font-family: "Poppins", Sans-serif;
   color:#354c7e;
-  /* font-size: 300%; */
 }
 
-.colab-text {
+.colab-text, .soft-skills {
   font-family: "Roboto Mono", Sans-serif;
   color:#b95f5c;
-  font-size: 1.4vw;
 }
 
 .job-title {
   color: #b95f5c;
   font-family: "Roboto Mono", Sans-serif;
   letter-spacing: 10px;
-  font-size: 1.4vw;
 }
 
 /* Components */
@@ -230,6 +228,10 @@ a {
 
   .plane2,
   .plane3 {
+    display: none;
+  }
+
+  .soft-skills {
     display: none;
   }
 
