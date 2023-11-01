@@ -29,7 +29,7 @@ linkedinContact.click(function () {
   //target the button to change
   const buttonLink = $("#contact-link");
   //change the href in the button
-  buttonLink.attr("href", "www.linkedin.com/in/travis-hammonds");
+  buttonLink.attr("href", "https://www.linkedin.com/in/travis-hammonds");
   //change the text in the button
   buttonLink.text("www.linkedin.com/in/travis-hammonds");
 });
